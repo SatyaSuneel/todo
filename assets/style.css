@@ -1,76 +1,44 @@
-
-    .list{
-        ul
-            list-style: none;
-            padding: 0;
-
-            li
-                /*margin-top: 20px;*/
-                width: 100%;
-                background: white;
-                color: $black;
-                margin: 0;
-                padding: 28px;
-                border: 1px solid $black;
-                border-radius: 5px;
-
-            }
-
-
-                span{
-                    padding: 10px;
-                    margin: 5px;
-                    background: blue;
-                    border-radius: 3px;
-                    color: white;
-                    display: inline-block;
-                    float: right;
-                    margin-top: -10px;
-                    cursor: pointer;
-                }
-                .list {
-                    margin-top: 10px;
-                    column-gap: 10px;
-                }
-                .list li{
-                    border: 2px solid black;
-                    border-radius: 2px ;
-                    padding: 20px;
-                    line-height: 2px;
-                    /*width: 40%;*/
-                    /*margin-left:300px;*/
-                    float: center;
-                    align-items: center;
-                    /*display: inline-block;*/
-                    list-style: none;
-                    margin-bottom: 3px;
-
-                }
-
-
-                    &.first{
-                        background: rgb(255, 172, 19);
-                    }
-                    &.second{
-                        background: rgb(177, 23, 23);
-                    }
-
-                    span.first{
-                        background-color: green;
-                    }
-                    span.second{
-                        background-color: red;
-                    }
-                    span.third{
-                        background-color: blue;
-                    }
-
-
+ .list li{
+     width: 100%;
+     background: white;
+     color: $black;
+     margin-bottom: 10px;
+     border: 1px solid black;
+     border-radius: 5px;
+     list-style: none;
+     padding: 20px;
 }
-                
+ &.first{
+     background: rgb(255, 172, 19);
+}
+ &.second{
+     background: rgb(177, 23, 23);
+}
+ span.first{
+     background-color: green;
+     display: flex;
+     float: right;
+     margin: 2px;
+     padding: 2px;
+}
+ span.second{
+     background-color: red;
+     display: flex;
+     float: right;
+     margin: 2px;
+     padding: 2px;
+}
+ span.third{
+     background-color: blue;
+     display: flex;
+     float: right;
+     margin: 2px;
+     padding: 2px;
+}
+ span{
+     border-radius: 5px;
+}
 
-
-                   }
       
 
       
